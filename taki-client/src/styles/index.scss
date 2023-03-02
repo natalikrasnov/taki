@@ -1,0 +1,8 @@
+@use './base';
+
+//pages
+@use './pages/welcome';
+@use './pages/game';
+
+//components
+@use './compoenents/header';

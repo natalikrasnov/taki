@@ -1,0 +1,36 @@
+.header{
+    text-align: center;
+    display: flex;
+    // flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: calc(50% - (295px/2));
+    width: 50vw;
+    justify-content: space-between;
+    align-items: baseline;
+
+    .title{
+        display: flex;
+        flex-direction: column;
+    }
+    .players_text {
+        border: 1px solid ;
+    }
+
+    img{
+        height: 150px;
+    }
+
+    .about_button{
+        background-color: green;
+        border-radius: 50%;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding:0;
+        align-self: center;
+        margin-bottom: 0.2rem;
+    }
+}

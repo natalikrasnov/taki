@@ -1,0 +1,40 @@
+.welcome-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    h1{
+        margin: 0;
+    }
+    button{
+        margin: 0.5rem;
+        font-weight: 600;
+        background-color: blue;
+        color: red;
+    }
+    
+    .taki_text{
+        font-size: 2.5rem;
+        background: linear-gradient(to right, green 25%,  red 26% ,yellow 90%, blue 10%);
+        background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+    }
+
+    .lets_start{
+        color: rgb(223, 230, 17);
+        font-weight: bold;
+
+       
+    }
+
+    .players_inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    
+}
